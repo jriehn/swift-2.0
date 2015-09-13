@@ -1,7 +1,17 @@
-//: [Previous](@previous)
+//: # Bindings - ObjC style
 
-import Foundation
 
-var str = "Hello, playground"
+func fooManualCheck(x: Int?) {
+    if x == nil || x <= 0 {
+        // Value requirements not met, do something
+        return
+    }
+    
+    // Do stuff with x
+    x!.description
+}
 
-//: [Next](@next)
+//: * Checking for a condition that you don’t want, rather than checking for the value you do want.
+//: * Need to force unwrap the optional value after the condition fails.
+
+//: [Previous](@previous) | [Next](@next)
