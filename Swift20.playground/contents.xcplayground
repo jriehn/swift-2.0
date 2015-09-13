@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='raw'>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
     <pages>
         <page name='Introduction'/>
         <page name='Bindings'/>
+        <page name='Pyramid of Doom'/>
         <page name='Bindings1.2'/>
         <page name='Bindings2.0'/>
         <page name='Error Handling'/>

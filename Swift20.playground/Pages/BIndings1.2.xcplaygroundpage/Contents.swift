@@ -1,6 +1,6 @@
 //: # Bindings - Swift 1.2 style
 
-func fooBinding(x: Int?) {
+func bindingsWithIfLet(x: Int?) {
     if let x = x where x > 0 {
         // Do stuff with x
         x.description

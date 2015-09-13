@@ -1,6 +1,6 @@
 //: # Bindings - Swift 2.0 style
 
-func fooGuard(x: Int?) {
+func bindingsWithGuard(x: Int?) {
     guard let x = x where x > 0 else {
         // Value requirements not met, do something
         return

@@ -1,7 +1,7 @@
 //: # Bindings - ObjC style
 
 
-func fooManualCheck(x: Int?) {
+func bindingObjC(x: Int?) {
     if x == nil || x <= 0 {
         // Value requirements not met, do something
         return
