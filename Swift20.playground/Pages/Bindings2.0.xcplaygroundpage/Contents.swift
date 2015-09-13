@@ -1,5 +1,13 @@
 //: # Bindings - Swift 2.0 style
 
+/*:
+  guard (condition I want to be true) else {
+    
+    // return, break, continue, or throw
+ 
+  }
+*/
+
 func bindingsWithGuard(x: Int?) {
     guard let x = x where x > 0 else {
         // Value requirements not met, do something

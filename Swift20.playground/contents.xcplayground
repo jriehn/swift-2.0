@@ -7,6 +7,10 @@
         <page name='Bindings1.2'/>
         <page name='Bindings2.0'/>
         <page name='Error Handling'/>
+        <page name='Error Propagation'/>
+        <page name='Error Catching '/>
+        <page name='Error Try'/>
+        <page name='Defer'/>
         <page name='Protocol Extensions'/>
         <page name='Unit Testing'/>
         <page name='Availability Checking'/>

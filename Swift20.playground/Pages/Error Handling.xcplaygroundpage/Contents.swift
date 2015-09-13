@@ -1,7 +1,8 @@
-//: [Previous](@previous)
+//: # Error handling
 
-import Foundation
-
-var str = "Hello, playground"
-
-//: [Next](@next)
+public enum WeekendError: ErrorType
+{
+    case Overtime(hoursWorked:Int)
+    case WorkAllWeekend
+}
+//: [Previous](@previous) | [Next](@next)
