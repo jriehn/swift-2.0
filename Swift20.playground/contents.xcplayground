@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Bindings'/>
+        <page name='Error Handling'/>
+        <page name='Protocol Extensions'/>
+        <page name='Unit Testing'/>
+        <page name='Availability Checking'/>
+    </pages>
+</playground>
