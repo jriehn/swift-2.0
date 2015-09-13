@@ -5,6 +5,6 @@ func hoursOfHaloPlayedThisWeekend() throws -> Int {
     return 0
 }
 
-let haloPlayTime:Int = try hoursOfHaloPlayedThisWeekend()
+let haloPlayTime = try hoursOfHaloPlayedThisWeekend()
 
-//: [Previous](@previous) | [Next](@next)
+//: [Previous](@previous) | [Defer](@next)

@@ -6,11 +6,10 @@ public enum WeekendError: ErrorType
     case WorkAllWeekend
 }
 
-public func haveAWeekend(extraHoursWorked:Int) throws
-{
+public func haveAWeekend(extraHoursWorked:Int) throws -> String {
     guard (extraHoursWorked == 0 ) else
     {
         throw WeekendError.Overtime(hoursWorked: extraHoursWorked)
     }
-    print("All clear! Keep preparing for Halo 5:Guardians.")
+    return "All clear! Keep preparing for Halo 5:Guardians."
 }

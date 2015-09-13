@@ -1,16 +1,16 @@
-//: # Propagation
+//: # Error Propagation
 import Foundation
 
-func haveAWeekend(extraHoursWorked:Int) throws
-{
+func haveAWeekend(extraHoursWorked:Int) throws -> String {
     guard (extraHoursWorked == 0 ) else
     {
         throw WeekendError.Overtime(hoursWorked: extraHoursWorked)
     }
-    print("All clear! Keep preparing for Halo 5:Guardians.")
+    return "All clear! Keep preparing for Halo 5:Guardians."
 }
 
-let foo = try? haveAWeekend(0)
+let foo = try haveAWeekend(1)
 
-//: [Previous](@previous) | [Next](@next)
+
+//: [Previous](@previous) | [Error Catching](@next)
 

@@ -6,6 +6,7 @@
         <page name='Pyramid of Doom'/>
         <page name='Bindings1.2'/>
         <page name='Bindings2.0'/>
+        <page name='Error Handling in Swift 1.2'/>
         <page name='Error Handling'/>
         <page name='Error Propagation'/>
         <page name='Error Catching '/>

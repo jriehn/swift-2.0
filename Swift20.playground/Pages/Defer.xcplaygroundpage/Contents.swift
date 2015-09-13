@@ -1,7 +1,21 @@
-//: [Previous](@previous)
+//: # Defer
 
-import Foundation
+func deferAllTheThings() {
+    defer {
+        print("Defer A")
+    }
+    
+    defer {
+        print("Defer B")
+    }
+    
+    defer {
+        print("Defer C")
+    }
+}
 
-var str = "Hello, playground"
+deferAllTheThings()
 
-//: [Next](@next)
+print("foobar")
+
+//: [Previous](@previous) | [Next](@next)
